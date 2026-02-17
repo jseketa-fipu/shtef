@@ -3,9 +3,9 @@
     "id": "shtef_wm_v1",
     "brand": "ShtefTech",
     "model": "EcoClean 3000",
-    "ean": "1234567890123",
-    "repairabilityScore": 8.5,
+    "ean": "1234567890123",    "repairabilityScore": 8.5,
     "description": "The EcoClean 3000 is our flagship modular washing machine. Designed for a 20-year lifespan with user-replaceable components.",
+    "imageUrl": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=1000",
     "parts": [
       {
         "id": "part_p1",
@@ -26,12 +26,32 @@
     ]
   },
   {
+    "id": "shtef_dw_v2",
+    "brand": "ShtefTech",
+    "model": "AquaSaver Dishwasher",
+    "ean": "1122334455667",
+    "repairabilityScore": 9.2,
+    "description": "Ultra-efficient dishwasher with easily accessible filters and pump system.",
+    "imageUrl": "https://images.unsplash.com/photo-1585837554808-a19e1371ea97?auto=format&fit=crop&q=80&w=1000",
+    "parts": [
+      {
+        "id": "part_dw1",
+        "name": "Spray Arm",
+        "category": "Wash System",
+        "price": 12.99,
+        "availability": true,
+        "supplier": "ShtefParts Global"
+      }
+    ]
+  },
+  {
     "id": "laundry_pro_x",
     "brand": "LaundryPro",
     "model": "X-Series 500",
     "ean": "9876543210987",
     "repairabilityScore": 4.2,
     "description": "Standard high-efficiency washer. Requires specialized tools for drum access.",
+    "imageUrl": "https://images.unsplash.com/photo-1626806819282-2c1dc61a0e05?auto=format&fit=crop&q=80&w=1000",
     "parts": [
       {
         "id": "part_x1",
@@ -40,6 +60,25 @@
         "price": 89.00,
         "availability": false,
         "supplier": "Generic Components Inc."
+      }
+    ]
+  },
+  {
+    "id": "cool_master_f1",
+    "brand": "CoolMaster",
+    "model": "FrostFree Refrigerator",
+    "ean": "5566778899001",
+    "repairabilityScore": 6.8,
+    "description": "Reliable cooling with a modular compressor design.",
+    "imageUrl": "https://images.unsplash.com/photo-1584622781564-1d9876a1dfa1?auto=format&fit=crop&q=80&w=1000",
+    "parts": [
+      {
+        "id": "part_f1",
+        "name": "Thermostat Sensor",
+        "category": "Electronics",
+        "price": 18.50,
+        "availability": true,
+        "supplier": "CoolParts Co."
       }
     ]
   }
