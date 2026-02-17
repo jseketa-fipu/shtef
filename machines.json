@@ -5,7 +5,7 @@
     "model": "EcoClean 3000",
     "ean": "1234567890123",    "repairabilityScore": 8.5,
     "description": "The EcoClean 3000 is our flagship modular washing machine. Designed for a 20-year lifespan with user-replaceable components.",
-    "imageUrl": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=1000",
+    "imageUrl": "https://www.electrolux.com.sg/contentassets/d6b1886669614ad39a6890e396b7bb6d/how-to-clean-washing-machine-thumbnail-mo.jpg",
     "parts": [
       {
         "id": "part_p1",
@@ -32,7 +32,7 @@
     "ean": "1122334455667",
     "repairabilityScore": 9.2,
     "description": "Ultra-efficient dishwasher with easily accessible filters and pump system.",
-    "imageUrl": "https://images.unsplash.com/photo-1585837554808-a19e1371ea97?auto=format&fit=crop&q=80&w=1000",
+    "imageUrl": "https://media3.gaggenau.com/Images/600x/16908473_gaggenau-dishwasher-ld1-400series-page-1.jpg",
     "parts": [
       {
         "id": "part_dw1",
@@ -51,7 +51,7 @@
     "ean": "9876543210987",
     "repairabilityScore": 4.2,
     "description": "Standard high-efficiency washer. Requires specialized tools for drum access.",
-    "imageUrl": "https://images.unsplash.com/photo-1626806819282-2c1dc61a0e05?auto=format&fit=crop&q=80&w=1000",
+    "imageUrl": "https://www.electrolux.com.sg/contentassets/d6b1886669614ad39a6890e396b7bb6d/how-to-clean-washing-machine-thumbnail-mo.jpg",
     "parts": [
       {
         "id": "part_x1",
@@ -70,7 +70,7 @@
     "ean": "5566778899001",
     "repairabilityScore": 6.8,
     "description": "Reliable cooling with a modular compressor design.",
-    "imageUrl": "https://images.unsplash.com/photo-1584622781564-1d9876a1dfa1?auto=format&fit=crop&q=80&w=1000",
+    "imageUrl": "https://article.images.consumerreports.org/image/upload/t_article_tout/v1740501672/prod/content/dam/CRO-Images-2025/Appliances/CR-Appliances-Inlinehero-side-by-side-refrigerators-0225",
     "parts": [
       {
         "id": "part_f1",
