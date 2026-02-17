@@ -1,0 +1,46 @@
+[
+  {
+    "id": "shtef_wm_v1",
+    "brand": "ShtefTech",
+    "model": "EcoClean 3000",
+    "ean": "1234567890123",
+    "repairabilityScore": 8.5,
+    "description": "The EcoClean 3000 is our flagship modular washing machine. Designed for a 20-year lifespan with user-replaceable components.",
+    "parts": [
+      {
+        "id": "part_p1",
+        "name": "Heavy Duty Drain Pump",
+        "category": "Hydraulics",
+        "price": 24.99,
+        "availability": true,
+        "supplier": "ShtefParts Global"
+      },
+      {
+        "id": "part_p2",
+        "name": "Silicone Door Seal",
+        "category": "Seals",
+        "price": 15.50,
+        "availability": true,
+        "supplier": "ShtefParts Global"
+      }
+    ]
+  },
+  {
+    "id": "laundry_pro_x",
+    "brand": "LaundryPro",
+    "model": "X-Series 500",
+    "ean": "9876543210987",
+    "repairabilityScore": 4.2,
+    "description": "Standard high-efficiency washer. Requires specialized tools for drum access.",
+    "parts": [
+      {
+        "id": "part_x1",
+        "name": "Standard Inverter Motor",
+        "category": "Electrical",
+        "price": 89.00,
+        "availability": false,
+        "supplier": "Generic Components Inc."
+      }
+    ]
+  }
+]
