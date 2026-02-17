@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Shtef</string>
+    <string name="title_home">Početna</string>
+    <string name="title_search">Pretraga</string>
+    <string name="title_map">Karta</string>
+    <string name="title_favorites">Favoriti</string>
+    <string name="scan_qr">Skeniraj QR</string>
+    <string name="manual_search">Ručna pretraga</string>
+    <string name="show_all_machines">Prikaži sve uređaje</string>
+    <string name="welcome_to_shtef">Dobrodošli kod Štefa</string>
+
+    <!-- Machine Details -->
+    <string name="repairability_index">Indeks popravljivosti: %1$s</string>
+    <string name="about_machine">O ovom uređaju</string>
+    <string name="certified_parts">Certificirani rezervni dijelovi</string>
+    <string name="machine_not_found">Uređaj nije pronađen</string>
+
+    <!-- Search -->
+    <string name="hint_brand">Marka</string>
+    <string name="hint_model">Model</string>
+    <string name="hint_ean">EAN / Serijski broj (opcionalno)</string>
+    <string name="btn_search">Traži</string>
+    <string name="label_results">Rezultati</string>
+    <string name="no_machines_found">Nema pronađenih uređaja</string>
+    <string name="enter_search_criteria">Molimo unesite marku/model ili EAN</string>
+
+    <!-- Favorites -->
+    <string name="saved_machines">Moji spremljeni uređaji</string>
+    <string name="no_favorites">Još nema favorita</string>
+
+    <!-- Scan -->
+    <string name="machine_not_found_code">Uređaj nije pronađen za kod: %1$s</string>
+    <string name="center_qr_instruction">Centrirajte QR kod unutar okvira</string>
+
+    <!-- Share Message -->
+    <string name="share_part_message">Dio: %1$s\nCijena: %2$s\nProdavač: %3$s\nAdresa: %4$s</string>
+</resources>

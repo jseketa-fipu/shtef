@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Shtef</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_map">Map</string>
+    <string name="title_favorites">Favorites</string>
+    <string name="scan_qr">Scan QR</string>
+    <string name="manual_search">Manual Search</string>
+    <string name="show_all_machines">Show All Machines</string>
+    <string name="welcome_to_shtef">Welcome to Shtef</string>
+
+    <!-- Machine Details -->
+    <string name="repairability_index">Repairability Index: %1$s</string>
+    <string name="about_machine">About this machine</string>
+    <string name="certified_parts">Certified Spare Parts</string>
+    <string name="machine_not_found">Machine not found</string>
+
+    <!-- Search -->
+    <string name="hint_brand">Brand</string>
+    <string name="hint_model">Model</string>
+    <string name="hint_ean">EAN / Serial (Optional)</string>
+    <string name="btn_search">Search</string>
+    <string name="label_results">Results</string>
+    <string name="no_machines_found">No machines found</string>
+    <string name="enter_search_criteria">Please enter brand/model or EAN</string>
+
+    <!-- Favorites -->
+    <string name="saved_machines">My Saved Machines</string>
+    <string name="no_favorites">No favorites yet</string>
+
+    <!-- Scan -->
+    <string name="machine_not_found_code">Machine not found: %1$s</string>
+    <string name="center_qr_instruction">Center QR code inside the box</string>
+
+    <!-- Share Message -->
+    <string name="share_part_message">Part: %1$s\nPrice: %2$s\nSeller: %3$s\nAddress: %4$s</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#2E7D32</color> <!-- Forest Green -->
+    <color name="primary_variant">#1B5E20</color>
+    <color name="on_primary">#FFFFFF</color>
+
+    <color name="secondary">#FFA000</color> <!-- Amber -->
+    <color name="secondary_variant">#FF8F00</color>
+    <color name="on_secondary">#000000</color>
+
+    <color name="background">#F5F5F5</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="on_surface">#212121</color>
+
+    <color name="error">#B00020</color>
+
+    <!-- Legacy colors if needed by other components -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

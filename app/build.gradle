@@ -1,0 +1,75 @@
+plugins {
+    alias(libs.plugins.android.application)
+}
+
+android {
+    namespace 'hr.fipu.shtef'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId "hr.fipu.shtef"
+        minSdk 28
+        targetSdk 36
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+}
+
+dependencies {
+    implementation libs.appcompat
+    implementation libs.material
+    implementation libs.activity
+    implementation libs.constraintlayout
+    
+    // Room
+    implementation libs.room.runtime
+    annotationProcessor libs.room.compiler
+    
+    // Retrofit
+    implementation libs.retrofit
+    implementation libs.retrofit.gson
+    
+    // Navigation
+    implementation libs.navigation.fragment
+    implementation libs.navigation.ui
+    
+    // Maps (OpenStreetMap)
+    implementation libs.osmdroid
+    
+    // ML Kit Barcode Scanning
+    implementation libs.barcode.scanning
+    
+    // CameraX
+    implementation libs.camerax.core
+    implementation libs.camerax.camera2
+    implementation libs.camerax.lifecycle
+    implementation libs.camerax.view
+    
+    // Lifecycle (ViewModel & LiveData)
+    implementation libs.lifecycle.viewmodel
+    implementation libs.lifecycle.livedata
+
+    // Glide for image loading
+    implementation libs.glide
+    annotationProcessor libs.glide.compiler
+
+    // Splash Screen
+    implementation libs.core.splashscreen
+
+    testImplementation libs.junit
+    androidTestImplementation libs.ext.junit
+    androidTestImplementation libs.espresso.core
+}
